@@ -88,7 +88,7 @@
                     Pet ID</td>
                 
                 <td class="auto-style4">
-                    <asp:Label ID="Label2" runat="server" Text="Label"></asp:Label>
+                    <asp:TextBox ID="TXTBXPETID" runat="server"></asp:TextBox>
                 </td>
                 
                 <td class="auto-style6">Breed</td>
@@ -194,6 +194,10 @@
                 <td class="auto-style6">Size</td>
                 <td class="auto-style2">
                     <asp:DropDownList ID="DRPSIZE" runat="server">
+                        <asp:ListItem>Please Select</asp:ListItem>
+                        <asp:ListItem>Small</asp:ListItem>
+                        <asp:ListItem>Medium</asp:ListItem>
+                        <asp:ListItem>Large</asp:ListItem>
                     </asp:DropDownList>
                 </td>
                 
@@ -207,6 +211,7 @@
                 <td class="auto-style6">Coat Condition</td>
                 <td class="auto-style2">
                     <asp:DropDownList ID="DRPCOAT" runat="server">
+                        <asp:ListItem>matted</asp:ListItem>
                     </asp:DropDownList>
                 </td>
                 

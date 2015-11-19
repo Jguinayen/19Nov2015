@@ -13,14 +13,14 @@ public partial class RegisterMyPet : System.Web.UI.Page
 
     }
 
-    private string connstr = System.Web.Configuration.WebConfigurationManager.ConnectionStrings["connectionString"].ConnectionString;
+    private string connstr = System.Web.Configuration.WebConfigurationManager.ConnectionStrings["petshoppeConnstr"].ConnectionString;
     private SqlConnection conn;
     private SqlCommand cmd;
 
     protected void BTNSAVE_Click(object sender, EventArgs e)
     {
         conn = new SqlConnection(connstr);
-        cmd = new SqlCommand("Insert into Petdetails(PetName,CustomerID,PetType,Other,PetBreed,Hairtype,Weight,Size,RegistrationDate,Precaution) values(@PetName,@CustomerID,@PetType@Other,@PetBreed,@Hairtype,@Weight,@Size,@RegistrationDate,@Precaution)", conn);
+        cmd = new SqlCommand("Insert into Petdetails(PetName,CustomerID,PetType,Other,PetBreed,Hairtype,Weight,Size,RegistrationDate,Precaution) values(@PetName,@CustomerID,@PetType,@Other,@PetBreed,@Hairtype,@Weight,@Size,@RegistrationDate,@Precaution)", conn);
 
         cmd.Parameters.AddWithValue("@PetName", TXTBXPETNAME.Text);
         cmd.Parameters.AddWithValue("@CustomerID", TXTBXCUSTOMID.Text);
