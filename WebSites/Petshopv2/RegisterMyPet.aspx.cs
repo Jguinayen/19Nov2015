@@ -20,7 +20,7 @@ public partial class RegisterMyPet : System.Web.UI.Page
     protected void BTNSAVE_Click(object sender, EventArgs e)
     {
         conn = new SqlConnection(connstr);
-        cmd = new SqlCommand("Insert into Petdetails(PetName,CustomerID,PetType,Other,PetBreed,Hairtype,Weight,Size,RegistrationDate,Precaution) values(@PetName,@CustomerID,@PetType,@Other,@PetBreed,@Hairtype,@Weight,@Size,@RegistrationDate,@Precaution)", conn);
+        cmd = new SqlCommand("Insert into PetDetails(PetName, CustomerID, PetType, Other, Precaution, PetBreed, Hairtype, Weight, Size, RegistrationDate) values(@PetName, @CustomerID, @PetType, @Other, @Precaution, @PetBreed, @Hairtype, @Weight, @Size, @RegistrationDate)", conn);
 
         cmd.Parameters.AddWithValue("@PetName", TXTBXPETNAME.Text);
         cmd.Parameters.AddWithValue("@CustomerID", TXTBXCUSTOMID.Text);
@@ -30,7 +30,7 @@ public partial class RegisterMyPet : System.Web.UI.Page
         cmd.Parameters.AddWithValue("@Hairtype", DRPHAIRTYPE.Text);
         cmd.Parameters.AddWithValue("@Weight", DRPWEIGHT.Text);
         cmd.Parameters.AddWithValue("@Size", DRPSIZE.Text);
-        cmd.Parameters.AddWithValue( "@RegistrationDate",Convert.ToDateTime(DateTime.Today.ToShortDateString()));
+        cmd.Parameters.AddWithValue("@RegistrationDate", Convert.ToDateTime(DateTime.Today.ToShortDateString()));
         cmd.Parameters.AddWithValue("@Precaution", TXTBXPRECAUTION.Text);
 
 
