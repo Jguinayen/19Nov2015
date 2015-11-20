@@ -31,7 +31,7 @@
         <li><a href="Reports.aspx">Reports</a></li>
         <li><a href="Account.aspx">My Account</a></li>
         <li><a href="Invoice.aspx">Invoice</a></li>
-          <li><a href="BookPet.aspx">Book an Appointment</a></li>
+        <li><a href="BookPet.aspx">Book an Appointment</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
        <%--<li><a href="#"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>--%>

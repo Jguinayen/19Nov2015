@@ -202,6 +202,7 @@
 		<div class="pull-right form-inline">
 			<div class="btn-group">
 				<button class="btn btn-primary" data-calendar-nav="prev"><< Prev</button>
+                <button class="btn" data-calendar-nav="prev"><< Sample</button>
 				<button class="btn" data-calendar-nav="today">Today</button>
 				<button class="btn btn-primary" data-calendar-nav="next">Next >></button>
 			</div>

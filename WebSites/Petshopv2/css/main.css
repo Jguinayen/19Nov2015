@@ -1272,3 +1272,22 @@ outline: 0;
 .dropdown.open a.dropdown-toggle .caret {
   border-top: 4px solid #FFF;
 }
+
+
+.centerbutton {
+  text-align:center;
+  vertical-align: middle;
+  align-content:center;
+  align-items:center;
+  align-self:center;
+
+}
+
+#centertable {
+  text-align:center;
+  vertical-align: middle;
+  align-content:center;
+  align-items:center;
+  align-self:center;
+
+}
