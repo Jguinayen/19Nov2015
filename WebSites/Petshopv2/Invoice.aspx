@@ -23,7 +23,6 @@
             height: 35px;
         }
         .auto-style6 {
-            width: 55px;
             height: 35px;
             text-align: center;
         }
@@ -72,8 +71,23 @@
             width: 248px;
             text-align: center;
         }
+
+
+/*------table style-----*/
+
+
+
+
+/*------table style-----*/
+
+        .auto-style22 {
+            width: 71px;
+            text-align: center;
+        }
+
     </style>
 </asp:Content>
+
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 
     <br /><br /><br /><br /><br />
@@ -171,7 +185,36 @@
                         </tr>
                         
                     </table>
-                    <br /><br />
+                    <br />
+                    
+                    <table style="width: 100%; border: solid 2px white" cellspacing="5px" cellpadding="2px text-align: center;">
+                        <tr>
+                            <td style="background-color: aliceblue" class="auto-style6" colspan="4">Other Grooming Services</td>
+                        </tr>
+                        <tr>
+                            <td class="auto-style22" style="align-content:center;">
+                                <asp:Button ID="Button4" runat="server" Text="Full Groom" />
+                            </td>
+                            <td class="auto-style2" style="text-align:center;">
+                                <asp:Button ID="Button5" runat="server" Text="Full Groom" />
+                            </td>
+                            <td class="auto-style25">
+                                <asp:Button ID="Button6" runat="server" Text="Full Groom" />
+                            </td>
+                            <td class="auto-style26" nowrap>
+                                <asp:Button ID="Button7" runat="server" Text="Full Groom" />
+                            </td>
+                        </tr>
+                        <tr height="50px">
+                            <td class="auto-style21" colspan="2">
+                                <asp:Button ID="Button2" runat="server" Text="Update Invoice" />
+                                &nbsp;</td>
+                            <td class="auto-style20">&nbsp;</td>
+                            <td class="auto-style19" nowrap>&nbsp;</td>
+                        </tr>
+                        
+                    </table>
+                    <br />
                 </td>
                 <td class="auto-style15" valign="top" align="left">
 
@@ -182,20 +225,21 @@
                     <div id="centertable">
                     <table class="centerbutton" style="background-color: aliceblue; width: 95%; border: solid 1px black">
                         <tr>
-                            <td class="auto-style14" colspan="3">
+                            <td class="auto-style14" colspan="4">
                                 <h5>PETSHOPPE</h5>
                             </td>
                             
                         </tr>
                         <tr>
-                            <td class="auto-style18" colspan="3">20 Hobson street,
+                            <td class="auto-style18" colspan="4">20 Hobson street,
                                 <br />
-                                Auckland CBD, New Zealand</td>
+                                Auckland CBD, New Zealand<br />
+                                (+64) 12345678</td>
                             
                         </tr>
                         <tr>
-                            <td class="auto-style18" colspan="3">
-                                <h6>21-11-2015 2:18 am</h6>
+                            <td class="auto-style18" colspan="4">
+                                <h6>&nbsp;Transaction ID&nbsp; 21-11-2015 12:18 pm</h6>
                             </td>
                             
                         </tr>
@@ -206,6 +250,9 @@
                             <td class="auto-style8">
                                 <h6>Job Type</h6>
                             </td>
+                            <td class="auto-style8">
+                                <h6>Qty</h6>
+                            </td>
                             <td class="auto-style9">
                                 <h6>Total</h6>
                             </td>
@@ -214,12 +261,18 @@
                         <tr>
                             <td class="input-small">00045</td>
                             <td class="auto-style24">Full Groom</td>
+                            <td class="auto-style8">
+                                <h6>1</h6>
+                            </td>
                             <td class="auto-style25">60.00</td>
                            
                         </tr>
                         <tr>
                             <td class="input-small">00146</td>
                             <td class="auto-style24">Shampoo</td>
+                            <td class="auto-style8">
+                                <h6>1</h6>
+                            </td>
                             <td class="auto-style25">60.00</td>
                             
                         </tr>
@@ -228,6 +281,9 @@
                         <tr>
                             <td class="input-small">&nbsp;</td>
                             <td class="auto-style24">&nbsp;</td>
+                            <td class="auto-style8">
+                                <h6>&nbsp;</h6>
+                            </td>
                             <td class="auto-style25">&nbsp;</td>
                             
                         </tr>
@@ -238,6 +294,9 @@
                             <td style="text-align:right;">
                                 <h6>Subtotal</h6>
                             </td>
+                            <td class="auto-style8">
+                                <h6>&nbsp;</h6>
+                            </td>
                             <td class="auto-style25">120.00</td>
                             
                         </tr>
@@ -246,14 +305,28 @@
                         <tr>
                             <td class="input-small">&nbsp;</td>
                             <td style="text-align:right;">
+                                <h6>GST</h6>
+                            </td>
+                            <td class="auto-style8">
+                                &nbsp;</td>
+                            <td class="auto-style14">&nbsp;</td>
+                        </tr>
+                        
+                        
+                        <tr>
+                            <td class="input-small">&nbsp;</td>
+                            <td style="text-align:right;">
                                 <h6>Total</h6>
 &nbsp;</td>
+                            <td class="auto-style8">
+                                <h6>&nbsp;</h6>
+                            </td>
                             <td class="auto-style14">120.00</td>
                         </tr>
                         
                         
                         <tr height="50px">
-                            <td class="auto-style13" align="center" style="font: bold 12px arial, verdana;" colspan="3">Thank you,
+                            <td class="auto-style13" align="center" style="font: bold 12px arial, verdana;" colspan="4">Thank you,
                                 Come Again<br />
                                 We appreciate your Business</td>
                         </tr>
