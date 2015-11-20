@@ -10,6 +10,10 @@ public partial class RegisterMyPet : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
+        TXTBXDATEREG.Text = DateTime.Today.ToShortDateString();
+        TXTBXDATEREG.Enabled = false;
+        TXTBXSIZE.Enabled = false;
+        TXTBXOTHERS.Enabled = false;
 
     }
 
@@ -24,14 +28,16 @@ public partial class RegisterMyPet : System.Web.UI.Page
 
         cmd.Parameters.AddWithValue("@PetName", TXTBXPETNAME.Text);
         cmd.Parameters.AddWithValue("@CustomerID", TXTBXCUSTOMID.Text);
-        cmd.Parameters.AddWithValue("@PetType", DRPTYPE.Text);
+        cmd.Parameters.AddWithValue("@PetType", DRPTYPE.SelectedItem.Text);
         cmd.Parameters.AddWithValue("@Other", TXTBXOTHERS.Text);
-        cmd.Parameters.AddWithValue("@PetBreed", DRPBREED.Text);
-        cmd.Parameters.AddWithValue("@Hairtype", DRPHAIRTYPE.Text);
-        cmd.Parameters.AddWithValue("@Weight", DRPWEIGHT.Text);
-        cmd.Parameters.AddWithValue("@Size", DRPSIZE.Text);
+        cmd.Parameters.AddWithValue("@PetBreed", DRPBREED.SelectedItem.Text);
+        cmd.Parameters.AddWithValue("@Hairtype", DRPHAIRTYPE.SelectedItem.Text);
+        cmd.Parameters.AddWithValue("@Weight", DRPWEIGHT.SelectedItem.Text);
+        cmd.Parameters.AddWithValue("@Size", TXTBXSIZE.Text);
         cmd.Parameters.AddWithValue("@RegistrationDate", Convert.ToDateTime(DateTime.Today.ToShortDateString()));
         cmd.Parameters.AddWithValue("@Precaution", TXTBXPRECAUTION.Text);
+
+
 
 
         conn.Open();
@@ -40,6 +46,11 @@ public partial class RegisterMyPet : System.Web.UI.Page
             LBLMSG.Text = "SUCCESSFULLY REGISTERED!";
         }
         conn.Close();
+
+    }
+
+    protected void DRPTYPE_SelectedIndexChanged(object sender, EventArgs e)
+    {
 
     }
 }
