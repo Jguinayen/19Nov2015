@@ -27,7 +27,7 @@ public partial class RegisterMyPet : System.Web.UI.Page
         cmd = new SqlCommand("Insert into PetDetails(PetName, CustomerID, PetType, Other, Precaution, PetBreed, Hairtype, Weight, Size, RegistrationDate) values(@PetName, @CustomerID, @PetType, @Other, @Precaution, @PetBreed, @Hairtype, @Weight, @Size, @RegistrationDate)", conn);
 
         cmd.Parameters.AddWithValue("@PetName", TXTBXPETNAME.Text);
-        cmd.Parameters.AddWithValue("@CustomerID", TXTBXCUSTOMID.Text);
+        cmd.Parameters.AddWithValue("@CustomerID", TXTBXCID.Text);
         cmd.Parameters.AddWithValue("@PetType", DRPTYPE.SelectedItem.Text);
         cmd.Parameters.AddWithValue("@Other", TXTBXOTHERS.Text);
         cmd.Parameters.AddWithValue("@PetBreed", DRPBREED.SelectedItem.Text);
@@ -36,9 +36,6 @@ public partial class RegisterMyPet : System.Web.UI.Page
         cmd.Parameters.AddWithValue("@Size", TXTBXSIZE.Text);
         cmd.Parameters.AddWithValue("@RegistrationDate", Convert.ToDateTime(DateTime.Today.ToShortDateString()));
         cmd.Parameters.AddWithValue("@Precaution", TXTBXPRECAUTION.Text);
-
-
-
 
         conn.Open();
         if (cmd.ExecuteNonQuery() == 1)
@@ -49,8 +46,4 @@ public partial class RegisterMyPet : System.Web.UI.Page
 
     }
 
-    protected void DRPTYPE_SelectedIndexChanged(object sender, EventArgs e)
-    {
-
-    }
 }
