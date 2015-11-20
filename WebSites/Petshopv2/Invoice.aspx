@@ -50,13 +50,15 @@
         .auto-style13 {
         }
         .auto-style14 {
-            width: 161px;
         }
         .auto-style15 {
             width: 57px;
         }
         .auto-style16 {
             width: 335px;
+        }
+        .auto-style18 {
+            font-size: x-small;
         }
     </style>
 </asp:Content>
@@ -95,19 +97,19 @@
                 <td class="auto-style11">&nbsp;</td>
                 <td class="auto-style12"><h3>Invoice</h3></td>
                 <td class="auto-style15">&nbsp;</td>
-                <td class="auto-style16" width="400px">ggg</td>
+                <td class="auto-style16" width="320px">Customer Invoice</td>
             </tr>
             <tr style="background-color: #e8dede;">
                 <td class="auto-style11" width="20px">&nbsp;</td>
                 <td class="auto-style7">
 
-                    <table style="width: 80%; border: solid 0px black">
-                        <tr style="background-color: aliceblue">
-                            <td class="auto-style5"></td>
-                            <td class="auto-style6" align="center">Delete</td>
-                            <td class="auto-style10">Product</td>
-                            <td class="auto-style5">Price</td>
-                            <td class="auto-style5">Total</td>
+                    <table style="width: 90%; border: solid 2px white" cellspacing="5px" cellpadding="2px">
+                        <tr>
+                            <td style="background-color: aliceblue" class="auto-style5"></td>
+                            <td style="background-color: aliceblue" class="auto-style6" align="center">Delete</td>
+                            <td style="background-color: aliceblue" class="auto-style10">Product</td>
+                            <td style="background-color: aliceblue" class="auto-style5">Price</td>
+                            <td style="background-color: aliceblue" class="auto-style5">Total</td>
                         </tr>
                         <tr>
                             <td class="auto-style30">&nbsp;</td>
@@ -156,11 +158,9 @@
                         </tr>
                         <tr height="50px">
                             <td class="auto-style31">&nbsp;</td>
-                            <td class="auto-style4">&nbsp;</td>
-                            <td class="auto-style2">
-                                <asp:Button ID="Button1" runat="server" Text="Update" />
-                                &nbsp;<asp:Button ID="Button2" runat="server" Text="Checkout" />
-                            </td>
+                            <td class="auto-style2" colspan="2">
+                                <asp:Button ID="Button1" runat="server" Text="Update Invoice" />
+                                &nbsp;</td>
                             <td class="auto-style20">&nbsp;</td>
                             <td class="auto-style19" nowrap>&nbsp;</td>
                         </tr>
@@ -176,26 +176,28 @@
               <!----------RECEIPT PREVIEW--------------->
                     <div id="centertable">
                     <table class="centerbutton" style="background-color: aliceblue; width: 95%; border: solid 1px black">
-                        <tr height="40px">
-                            <td class="auto-style29" colspan="4" align="center">CUSTOMER INVOICE</td>
+                        <tr>
+                            <td class="auto-style14" colspan="3">PETSHOPPE</td>
                             
                         </tr>
                         <tr>
-                            <td class="auto-style29">&nbsp;</td>
-                            <td class="auto-style14">Product</td>
+                            <td class="auto-style18" colspan="3">20 Hobson street, <br />
+                                Auckland CBD, New Zealand</td>
+                            
+                        </tr>
+                        <tr>
+                            <td class="auto-style14">Item</td>
                             <td class="auto-style8">Pet ID</td>
                             <td class="auto-style9">Pet Name</td>
                             
                         </tr>
                         <tr>
-                            <td class="auto-style30">&nbsp;</td>
                             <td class="auto-style14">00045</td>
                             <td class="auto-style24">3215</td>
                             <td class="auto-style25">Oscar</td>
                            
                         </tr>
                         <tr>
-                            <td class="auto-style30">&nbsp;</td>
                             <td class="auto-style14">00146</td>
                             <td class="auto-style24">3215</td>
                             <td class="auto-style25">Oscar</td>
@@ -204,7 +206,6 @@
                         
                         
                         <tr>
-                            <td class="auto-style30">&nbsp;</td>
                             <td class="auto-style14">&nbsp;</td>
                             <td class="auto-style24">&nbsp;</td>
                             <td class="auto-style25">&nbsp;</td>
@@ -213,16 +214,14 @@
                         
                         
                         <tr>
-                            <td class="auto-style30">&nbsp;</td>
                             <td class="auto-style14">&nbsp;</td>
-                            <td class="auto-style24">&nbsp;</td>
+                            <td class="auto-style24">CUSTOMER INVOICE</td>
                             <td class="auto-style25">&nbsp;</td>
                             
                         </tr>
                         
                         
                         <tr>
-                            <td class="auto-style30">&nbsp;</td>
                             <td class="auto-style14">&nbsp;</td>
                             <td class="auto-style24">&nbsp;</td>
                             <td class="auto-style25">&nbsp;</td>
@@ -231,11 +230,11 @@
                         
                         
                         <tr height="50px">
-                            <td class="auto-style30">&nbsp;</td>
-                            <td class="auto-style13" colspan="3" align="center" style="font: bold 12px arial, verdana;">Thank you,
+                            <td class="auto-style13" align="center" style="font: bold 12px arial, verdana;">&nbsp;</td>
+                             <td class="auto-style30">Thank you,
                                 Come Again<br />
                                 We appreciate your Business</td>
-                            
+                             <td class="auto-style30">&nbsp;</td>
                         </tr>
                         
                         
@@ -244,6 +243,7 @@
                     <br />
                     <asp:Button ID="Button3" runat="server" Text="Print Invoice" />
                     </div>
+                    <br />
              <!----------/RECEIPT PREVIEW--------------->
                 </td>
             </tr>

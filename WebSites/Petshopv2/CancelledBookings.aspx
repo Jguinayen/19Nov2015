@@ -131,8 +131,6 @@
   </div>
 </nav>
        <!-- /TOP MEMBER NAVBAR-->
-
-
         
         <table style="border: 1px; width: 100%; background-color: #e8dede; padding: 4px 4px 4px 4px;">
             <tr style="background-color: #e8dede;">
@@ -215,7 +213,7 @@
                             <td class="auto-style20">&nbsp;</td>
                             <td class="auto-style19" nowrap>&nbsp;</td>
                             <td class="auto-style15">&nbsp;</td>
-                            <td class="auto-style17" style="vertical-align: centre;">
+                            <td class="auto-style17" style="vertical-align: middle;">
                                 &nbsp;</td>
                         </tr>
                         
@@ -223,10 +221,6 @@
                     <br /><br />
                 </td>
             </tr>
-            
-            
-
-
             
             </table>
 
