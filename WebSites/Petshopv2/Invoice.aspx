@@ -19,9 +19,6 @@
             width: 55px;
             text-align: center;
         }
-        .auto-style5 {
-            height: 35px;
-        }
         .auto-style6 {
             height: 35px;
             text-align: center;
@@ -30,36 +27,17 @@
             width: 63%;
             height: 23px;
         }
-        .auto-style8 {
-            width: 341px;
-            height: 26px;
-        }
-        .auto-style9 {
-            width: 341px;
-            height: 27px;
-        }
-        .auto-style10 {
-            width: 248px;
-            height: 35px;
-        }
         .auto-style11 {
             width: 84px;
         }
         .auto-style12 {
             width: 63%;
         }
-        .auto-style13 {
-        }
-        .auto-style14 {
-        }
         .auto-style15 {
             width: 57px;
         }
         .auto-style16 {
             width: 335px;
-        }
-        .auto-style18 {
-            font-size: x-small;
         }
         .auto-style19 {
             width: 41px;
@@ -72,20 +50,50 @@
             text-align: center;
         }
 
-
-/*------table style-----*/
-
-
-
-
-/*------table style-----*/
-
         .auto-style22 {
             width: 71px;
             text-align: center;
         }
 
-    </style>
+/*------table style-----*/
+
+#invoice {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#invoice td, #invoice th {
+    font-size: 12px;
+    border: 2px solid #efefef;
+    padding: 4px 7px 4px 7px;
+}
+
+#invoice th {
+    font-size: 12px;
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    background-color: #FFCC00;
+    color: #333333;
+}
+
+        #invoice tr.alt td {
+            color: #000000;
+            background-color: #e0e0e0;
+        }
+
+
+/* ---- table style --- */
+
+        .auto-style23 {
+            width: 64px;
+        }
+
+     </style>
+
+
+   
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
@@ -101,12 +109,12 @@
     </div>
     <div>
       <ul class="nav navbar-nav">
-        <li class="active"><a href="Admin.aspx">Calendar</a></li>
+        <li><a href="Admin.aspx">Calendar</a></li>
         <li><a href="DateSettings.aspx">Date Settings</a></li>
         <li><a href="UserAccts.aspx">User Accounts</a></li>
         <li><a href="Reports.aspx">Reports</a></li>
         <li><a href="Account.aspx">My Account</a></li>
-        <li><a href="Invoice.aspx">Invoice</a></li>
+        <li class="active"><a href="Invoice.aspx">Invoice</a></li>
           <li><a href="BookPet.aspx">Book an Appointment</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -118,133 +126,36 @@
        <!-- /TOP MEMBER NAVBAR-->
 
 
-    <table style="border: 1px solid #000; width:100% background-color: #e8dede; padding: 4px 4px 4px 4px;">
-            <tr style="background-color: #e8dede;">
+    <table style="border: 1px solid #000; width:100%; background-color: #e8dede; padding: 4px 4px 4px 4px;">
+            <tr style="background-color: #e8dede; height: 20px;">
                 <td class="auto-style11">&nbsp;</td>
                 <td class="auto-style12"><h3>Invoice</h3></td>
                 <td class="auto-style15">&nbsp;</td>
-                <td class="auto-style16" width="320px">Customer Invoice</td>
-            </tr>
-            <tr style="background-color: #e8dede;">
-                <td class="auto-style11" width="20px">&nbsp;</td>
-                <td class="auto-style7" style="vertical-align:top;">
+                <td class="auto-style16" rowspan="2" style="vertical-align:top;">
 
-                    <table style="width: 100%; border: solid 2px white" cellspacing="5px" cellpadding="2px">
-                        <tr>
-                            <td style="background-color: aliceblue" class="auto-style6">Delete</td>
-                            <td style="background-color: aliceblue" class="auto-style10">Product</td>
-                            <td style="background-color: aliceblue" class="auto-style5">Price</td>
-                            <td style="background-color: aliceblue" class="auto-style5">Total</td>
-                        </tr>
-                        <tr>
-                            <td class="auto-style4">
-                                <asp:CheckBox ID="CheckBox1" runat="server" />
-                            </td>
-                            <td class="auto-style2">Full groom</td>
-                            <td class="auto-style25">60.00</td>
-                            <td class="auto-style26" nowrap>60.00</td>
-                        </tr>
-                        <tr>
-                            <td class="auto-style4">
-                                <asp:CheckBox ID="CheckBox2" runat="server" />
-                            </td>
-                            <td class="auto-style2">Shampoo</td>
-                            <td class="auto-style25">60.00</td>
-                            <td class="auto-style26" nowrap>60.00</td>
-                        </tr>
-                        <tr>
-                            <td class="auto-style4">
-                                <asp:CheckBox ID="CheckBox3" runat="server" />
-                            </td>
-                            <td class="auto-style2">Dye</td>
-                            <td class="auto-style25">60.00</td>
-                            <td class="auto-style26" nowrap>60.00</td>
-                        </tr>
-                        <tr>
-                            <td class="auto-style4">
-                                <asp:CheckBox ID="CheckBox4" runat="server" />
-                            </td>
-                            <td class="auto-style2">Cut</td>
-                            <td class="auto-style25">60.00</td>
-                            <td class="auto-style26" nowrap>60.00</td>
-                        </tr>
-                        <tr>
-                            <td class="auto-style4">
-                                <asp:CheckBox ID="CheckBox5" runat="server" />
-                            </td>
-                            <td class="auto-style2">Nail Trim</td>
-                            <td class="auto-style25">60.00</td>
-                            <td class="auto-style26" nowrap>60.00</td>
-                        </tr>
-                        <tr height="50px">
-                            <td class="auto-style21" colspan="2">
-                                <asp:Button ID="Button1" runat="server" Text="Update Invoice" />
-                                &nbsp;</td>
-                            <td class="auto-style20">&nbsp;</td>
-                            <td class="auto-style19" nowrap>&nbsp;</td>
-                        </tr>
-                        
-                    </table>
-                    <br />
-                    
-                    <table style="width: 100%; border: solid 2px white" cellspacing="5px" cellpadding="2px text-align: center;">
-                        <tr>
-                            <td style="background-color: aliceblue" class="auto-style6" colspan="4">Other Grooming Services</td>
-                        </tr>
-                        <tr>
-                            <td class="auto-style22" style="align-content:center;">
-                                <asp:Button ID="Button4" runat="server" Text="Full Groom" />
-                            </td>
-                            <td class="auto-style2" style="text-align:center;">
-                                <asp:Button ID="Button5" runat="server" Text="Full Groom" />
-                            </td>
-                            <td class="auto-style25">
-                                <asp:Button ID="Button6" runat="server" Text="Full Groom" />
-                            </td>
-                            <td class="auto-style26" nowrap>
-                                <asp:Button ID="Button7" runat="server" Text="Full Groom" />
-                            </td>
-                        </tr>
-                        <tr height="50px">
-                            <td class="auto-style21" colspan="2">
-                                <asp:Button ID="Button2" runat="server" Text="Update Invoice" />
-                                &nbsp;</td>
-                            <td class="auto-style20">&nbsp;</td>
-                            <td class="auto-style19" nowrap>&nbsp;</td>
-                        </tr>
-                        
-                    </table>
-                    <br />
-                </td>
-                <td class="auto-style15" valign="top" align="left">
-
-                    &nbsp;</td>
-                <td class="auto-style16" valign="top" width="400px">
-
-              <!----------RECEIPT PREVIEW--------------->
+                     <!----------RECEIPT PREVIEW--------------->
                     <div id="centertable">
+                        <h5>CUSTOMER INVOICE</h5>
                     <table class="centerbutton" style="background-color: aliceblue; width: 95%; border: solid 1px black">
+                        
                         <tr>
-                            <td class="auto-style14" colspan="4">
-                                <h5>PETSHOPPE</h5>
-                            </td>
-                            
-                        </tr>
-                        <tr>
-                            <td class="auto-style18" colspan="4">20 Hobson street,
+                            <td class="auto-style18" colspan="4">
+                                <h4>PETSHOPPE
+                                    </h4><h6>20 Hobson street,
                                 <br />
                                 Auckland CBD, New Zealand<br />
-                                (+64) 12345678</td>
+                                (+64) 12345678</h6>
+                            </td>
                             
                         </tr>
                         <tr>
                             <td class="auto-style18" colspan="4">
-                                <h6>&nbsp;Transaction ID&nbsp; 21-11-2015 12:18 pm</h6>
+                                <h6>&nbsp;Invoice #94875&nbsp; 21-11-2015 12:18 pm</h6>
                             </td>
                             
                         </tr>
                         <tr>
-                            <td class="input-small">
+                            <td class="auto-style23">
                                 <h6>Item</h6>
                             </td>
                             <td class="auto-style8">
@@ -259,7 +170,7 @@
                             
                         </tr>
                         <tr>
-                            <td class="input-small">00045</td>
+                            <td class="auto-style23">00045</td>
                             <td class="auto-style24">Full Groom</td>
                             <td class="auto-style8">
                                 <h6>1</h6>
@@ -268,7 +179,7 @@
                            
                         </tr>
                         <tr>
-                            <td class="input-small">00146</td>
+                            <td class="auto-style23">00146</td>
                             <td class="auto-style24">Shampoo</td>
                             <td class="auto-style8">
                                 <h6>1</h6>
@@ -279,21 +190,9 @@
                         
                         
                         <tr>
-                            <td class="input-small">&nbsp;</td>
-                            <td class="auto-style24">&nbsp;</td>
-                            <td class="auto-style8">
-                                <h6>&nbsp;</h6>
-                            </td>
-                            <td class="auto-style25">&nbsp;</td>
-                            
-                        </tr>
-                        
-                        
-                        <tr>
-                            <td class="input-small">&nbsp;</td>
+                            <td class="auto-style23">&nbsp;</td>
                             <td style="text-align:right;">
-                                <h6>Subtotal</h6>
-                            </td>
+                                Subtotal</td>
                             <td class="auto-style8">
                                 <h6>&nbsp;</h6>
                             </td>
@@ -303,25 +202,23 @@
                         
                         
                         <tr>
-                            <td class="input-small">&nbsp;</td>
+                            <td class="auto-style23">&nbsp;</td>
                             <td style="text-align:right;">
-                                <h6>GST</h6>
-                            </td>
+                                GST</td>
                             <td class="auto-style8">
                                 &nbsp;</td>
-                            <td class="auto-style14">&nbsp;</td>
+                            <td class="auto-style14">18.00</td>
                         </tr>
                         
                         
                         <tr>
-                            <td class="input-small">&nbsp;</td>
+                            <td class="auto-style23">&nbsp;</td>
                             <td style="text-align:right;">
-                                <h6>Total</h6>
-&nbsp;</td>
+                                Total&nbsp;</td>
                             <td class="auto-style8">
                                 <h6>&nbsp;</h6>
                             </td>
-                            <td class="auto-style14">120.00</td>
+                            <td class="auto-style14">138.00</td>
                         </tr>
                         
                         
@@ -339,7 +236,150 @@
                     </div>
                     <br />
              <!----------/RECEIPT PREVIEW--------------->
+
                 </td>
+            </tr>
+            <tr style="background-color: #e8dede;">
+                <td class="auto-style11" width="20px">&nbsp;</td>
+                <td class="auto-style7" style="vertical-align:top;">
+
+                    <table id="invoice" style="width: 100%; border: solid 2px white">
+                        <tr>
+                            <th style="width:20px; text-align:center;">Delete</td>
+                            <th style="width:60%;">Job Type
+                            <th style="width:10px;">Price</td>
+                            <th style="width:10px;">Total</td>
+                        </tr>
+                        <tr>
+                            <td class="auto-style4">
+                                <asp:CheckBox ID="CheckBox1" runat="server" />
+                            </td>
+                            <td class="auto-style2">Full groom</td>
+                            <td class="auto-style25">60.00</td>
+                            <td class="auto-style26" nowrap>60.00</td>
+                        </tr>
+                        <tr class="alt">
+                            <td class="auto-style4">
+                                <asp:CheckBox ID="CheckBox2" runat="server" />
+                            </td>
+                            <td class="auto-style2">Shampoo</td>
+                            <td class="auto-style25">60.00</td>
+                            <td class="auto-style26" nowrap>60.00</td>
+                        </tr>
+                        <tr>
+                            <td class="auto-style4">
+                                <asp:CheckBox ID="CheckBox3" runat="server" />
+                            </td>
+                            <td class="auto-style2">Dye</td>
+                            <td class="auto-style25">60.00</td>
+                            <td class="auto-style26" nowrap>60.00</td>
+                        </tr>
+                        <tr class="alt">
+                            <td class="auto-style4">
+                                <asp:CheckBox ID="CheckBox4" runat="server" />
+                            </td>
+                            <td class="auto-style2">Cut</td>
+                            <td class="auto-style25">60.00</td>
+                            <td class="auto-style26" nowrap>60.00</td>
+                        </tr>
+                        <tr>
+                            <td class="auto-style4">
+                                <asp:CheckBox ID="CheckBox5" runat="server" />
+                            </td>
+                            <td class="auto-style2">Nail Trim</td>
+                            <td class="auto-style25">60.00</td>
+                            <td class="auto-style26" nowrap>60.00</td>
+                        </tr>
+                        <tr height="50px" class="alt">
+                            <td class="auto-style21;" colspan="2">
+                                <asp:Button ID="Button1" runat="server" Text="Update Invoice" />
+                                &nbsp;</td>
+                            <td class="auto-style20">&nbsp;</td>
+                            <td class="auto-style19" nowrap>&nbsp;</td>
+                        </tr>
+                        
+                    </table>
+                    <br />
+                    
+                    <table id="bigbutton" style="width: 100%; border: solid 2px white; background-color: #e1a4a4 text-align: center;">
+                        <tr>
+                            <td style="background-color: aliceblue" class="auto-style6" colspan="4">
+                                <h5>Other Grooming Services</h5>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="align-content:center;">
+                                &nbsp;</td>
+                            <td style="text-align:center;">
+                                </td>
+                            <td style="text-align:center;">
+                                </td>
+                            <td style="text-align:center;">
+                                </td>
+                        </tr>
+                        <tr>
+                            <td class="auto-style22" style="align-content:center;">
+                                <button class="button button2">Platinum Groom</button>
+                            </td>
+                            <td class="auto-style2" style="text-align:center;">
+                               <button class="button button2">Gold Groom</button></td>
+                            <td class="auto-style2" style="text-align:center;">
+                                <button class="button button2">Standard Groom</button></td>
+                            <td class="auto-style2" style="text-align:center;">
+                                <button class="button button2">Top Dog</button></td>
+                        </tr>
+                        <tr>
+                            <td class="auto-style22" style="align-content:center;">
+                                <button class="button button2">Super Smoothie</button>
+                            </td>
+                            <td class="auto-style2" style="text-align:center;">
+                               <button class="button button2">Wash &amp; Blow Dry</button></td>
+                            <td class="auto-style2" style="text-align:center;">
+                                <button class="button button2">Mini Groom</button></td>
+                            <td class="auto-style2" style="text-align:center;">
+                                <button class="button button2">Nail Trim</button></td>
+                        </tr>
+                        <tr>
+                            <td class="auto-style22" style="align-content:center;">
+                                <button class="button button2">Kissable Dog</button>
+                            </td>
+                            <td class="auto-style2" style="text-align:center;">
+                               <button class="button button2">Flea Treatment</button></td>
+                            <td class="auto-style2" style="text-align:center;">
+                                <button class="button button2">De-Shedding</button></td>
+                            <td class="auto-style2" style="text-align:center;">
+                                <button class="button button2">Calming Canine<br />
+                                    Shampoo Treatment</button></td>
+                        </tr>
+                        <tr>
+                            <td class="auto-style22" style="align-content:center;">
+                                <button class="button button2">Citrus Sensation<br />Shampoo Treatment</button>
+                            </td>
+                            <td class="auto-style2" style="text-align:center;">
+                               <button class="button button2">Perfect Pedicure</button></td>
+                            <td class="auto-style2" style="text-align:center;">
+                                <button class="button button2">Facial</button></td>
+                            <td class="auto-style2" style="text-align:center;">
+                                <button class="button button2">Top Dog</button></td>
+                        </tr>
+                        </tr>
+                        <tr>
+                            <td class="auto-style22" style="align-content:center;">
+                                &nbsp;</td>
+                            <td class="auto-style2" style="text-align:center;">
+                                &nbsp;</td>
+                            <td class="auto-style2" style="text-align:center;">
+                                &nbsp;</td>
+                            <td class="auto-style2" style="text-align:center;">
+                                &nbsp;</td>
+                        </tr>
+                                                                        
+                    </table>
+                    <br />
+                </td>
+                <td class="auto-style15" valign="top" align="left">
+
+                    &nbsp;</td>
             </tr>
               
             </table>
