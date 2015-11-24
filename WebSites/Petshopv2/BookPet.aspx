@@ -25,13 +25,13 @@
     </div>
     <div>
       <ul class="nav navbar-nav">
-        <li class="active"><a href="Admin.aspx">Calendar</a></li>
+       <li class="active"><a href="Admin.aspx">Calendar</a></li>
         <li><a href="DateSettings.aspx">Date Settings</a></li>
         <li><a href="UserAccts.aspx">User Accounts</a></li>
         <li><a href="Reports.aspx">Reports</a></li>
-        <li><a href="Account">My Account</a></li>
+        <li><a href="Account.aspx">My Account</a></li>
         <li><a href="Invoice.aspx">Invoice</a></li>
-          <li><a href="BookPet">Book an Appointment</a></li>
+        <li><a href="BookPet.aspx">Book an Appointment</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
       </ul>
