@@ -1,0 +1,46 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/MasterPage-1.master" %>
+
+<script runat="server">
+
+</script>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+    <br /><br /><br /><br /><br />
+    <div class="container">
+
+        <!-- TOP MEMBER NAVBAR-->
+        <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Hi, Johana</a>
+    </div>
+    <div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="UpcomingBook.aspx">Upcoming Bookings</a></li>
+        <li><a href="#">Cancelled Bookings</a></li>
+        <li><a href="#">Transaction History</a></li>
+        <li><a href="#">Register My Pet</a></li>
+        <li><a href="#">My Account</a></li>
+      </ul>
+      <%--<ul class="nav navbar-nav navbar-right">
+       <li><a href="#"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+      </ul>--%>
+    </div>
+  </div>
+</nav>
+       <!-- /TOP MEMBER NAVBAR-->
+
+    <!------Child ContentPlaceHolder------>
+    <div id="2col">
+  <asp:ContentPlaceHolder ID="leftcolumn" runat="server">
+  </asp:ContentPlaceHolder>
+  <asp:ContentPlaceHolder ID="rightcolumn" runat="server">
+  </asp:ContentPlaceHolder>
+</div>
+      <!------end of Child ContentPlaceHolder------>
+
+</asp:Content>
+
