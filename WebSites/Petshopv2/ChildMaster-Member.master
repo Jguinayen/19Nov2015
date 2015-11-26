@@ -5,6 +5,16 @@
 </script>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+
+    <link rel="stylesheet" href="components/bootstrap2/css/bootstrap.css"/>
+    <link rel="stylesheet" href="components/bootstrap2/css/bootstrap-responsive.css"/>
+    <link rel="stylesheet" href="css/calendar.css"/>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <br /><br /><br /><br /><br />
@@ -17,14 +27,14 @@
       <a class="navbar-brand" href="#">Hi, Johana</a>
     </div>
     <div>
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="UpcomingBook.aspx">Upcoming Bookings</a></li>
-        <li><a href="#">Cancelled Bookings</a></li>
-        <li><a href="#">Transaction History</a></li>
-        <li><a href="#">Register My Pet</a></li>
-        <li><a href="#">My Account</a></li>
-      </ul>
+        <ul class="nav navbar-nav">
+           <li><a href="booknow.aspx">Book Now</a></li>
+           <li><a href="UpcomingBook.aspx">Upcoming Bookings</a></li>
+           <li><a href="CancelledBookings.aspx">Cancelled Bookings</a></li>
+           <li><a href="TransHistory.aspx">Transaction History</a></li>
+           <li class="active"><a href="RegisterMyPet.aspx">Register My Pet</a></li>
+           <li><a href="MyAccount.aspx">My Account</a></li>
+         </ul>
       <%--<ul class="nav navbar-nav navbar-right">
        <li><a href="#"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
       </ul>--%>

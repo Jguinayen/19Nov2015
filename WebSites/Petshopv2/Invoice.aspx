@@ -45,11 +45,7 @@
         .auto-style20 {
             width: 45px;
         }
-        .auto-style21 {
-            width: 248px;
-            text-align: center;
-        }
-
+        
         .auto-style22 {
             width: 71px;
             text-align: center;
@@ -247,6 +243,7 @@
                         <tr>
                             <th style="width:20px; text-align:center;">Delete</td>
                             <th style="width:60%;">Job Type
+                            <th style="width:10px;">Qty
                             <th style="width:10px;">Price</td>
                             <th style="width:10px;">Total</td>
                         </tr>
@@ -255,6 +252,9 @@
                                 <asp:CheckBox ID="CheckBox1" runat="server" />
                             </td>
                             <td class="auto-style2">Full groom</td>
+                            <td class="auto-style25">
+                                <asp:TextBox ID="TextBox1" runat="server" Width="15px">1</asp:TextBox>
+                            </td>
                             <td class="auto-style25">60.00</td>
                             <td class="auto-style26" nowrap>60.00</td>
                         </tr>
@@ -263,6 +263,9 @@
                                 <asp:CheckBox ID="CheckBox2" runat="server" />
                             </td>
                             <td class="auto-style2">Shampoo</td>
+                            <td class="auto-style25">
+                                <asp:TextBox ID="TextBox2" runat="server" Width="15px">1</asp:TextBox>
+                            </td>
                             <td class="auto-style25">60.00</td>
                             <td class="auto-style26" nowrap>60.00</td>
                         </tr>
@@ -271,6 +274,9 @@
                                 <asp:CheckBox ID="CheckBox3" runat="server" />
                             </td>
                             <td class="auto-style2">Dye</td>
+                            <td class="auto-style25">
+                                <asp:TextBox ID="TextBox3" runat="server" Width="15px">1</asp:TextBox>
+                            </td>
                             <td class="auto-style25">60.00</td>
                             <td class="auto-style26" nowrap>60.00</td>
                         </tr>
@@ -279,6 +285,9 @@
                                 <asp:CheckBox ID="CheckBox4" runat="server" />
                             </td>
                             <td class="auto-style2">Cut</td>
+                            <td class="auto-style25">
+                                <asp:TextBox ID="TextBox4" runat="server" Width="15px">1</asp:TextBox>
+                            </td>
                             <td class="auto-style25">60.00</td>
                             <td class="auto-style26" nowrap>60.00</td>
                         </tr>
@@ -286,7 +295,10 @@
                             <td class="auto-style4">
                                 <asp:CheckBox ID="CheckBox5" runat="server" />
                             </td>
-                            <td class="auto-style2">Nail Trim</td>
+                            <td class="auto-style2">Nail Trim Only</td>
+                            <td class="auto-style25">
+                                <asp:TextBox ID="TextBox5" runat="server" Width="15px">1</asp:TextBox>
+                            </td>
                             <td class="auto-style25">60.00</td>
                             <td class="auto-style26" nowrap>60.00</td>
                         </tr>
@@ -294,6 +306,7 @@
                             <td class="auto-style21;" colspan="2">
                                 <asp:Button ID="Button1" runat="server" Text="Update Invoice" />
                                 &nbsp;</td>
+                            <td class="auto-style20">&nbsp;</td>
                             <td class="auto-style20">&nbsp;</td>
                             <td class="auto-style19" nowrap>&nbsp;</td>
                         </tr>
@@ -337,14 +350,14 @@
                             <td class="auto-style2" style="text-align:center;">
                                 <button class="button button2">Mini Groom</button></td>
                             <td class="auto-style2" style="text-align:center;">
-                                <button class="button button2">Nail Trim</button></td>
+                                <button class="button button2">Nail Trim Only</button></td>
                         </tr>
                         <tr>
                             <td class="auto-style22" style="align-content:center;">
                                 <button class="button button2">Kissable Dog</button>
                             </td>
                             <td class="auto-style2" style="text-align:center;">
-                               <button class="button button2">Flea Treatment</button></td>
+                               <button class="button button2">Flea Relief</button></td>
                             <td class="auto-style2" style="text-align:center;">
                                 <button class="button button2">De-Shedding</button></td>
                             <td class="auto-style2" style="text-align:center;">
@@ -360,7 +373,7 @@
                             <td class="auto-style2" style="text-align:center;">
                                 <button class="button button2">Facial</button></td>
                             <td class="auto-style2" style="text-align:center;">
-                                <button class="button button2">Top Dog</button></td>
+                                &nbsp;</td>
                         </tr>
                         </tr>
                         <tr>

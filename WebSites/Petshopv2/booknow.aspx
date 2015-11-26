@@ -8,8 +8,8 @@
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
 
-    <link rel="stylesheet" href="components/bootstrap2/css/bootstrap.css"/>
-    <link rel="stylesheet" href="components/bootstrap2/css/bootstrap-responsive.css"/>
+    <%--<link rel="stylesheet" href="components/bootstrap2/css/bootstrap.css"/>
+    <link rel="stylesheet" href="components/bootstrap2/css/bootstrap-responsive.css"/>--%>
     <link rel="stylesheet" href="css/calendar.css"/>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
