@@ -49,6 +49,7 @@
            <li><a href="TransHistory.aspx">Transaction History</a></li>
            <li><a href="RegisterAPet.aspx">Register My Pet</a></li>
            <li><a href="MemberAccount.aspx">My Account</a></li>
+            <li><a href="MemberAccount.aspx">Reports</a></li>
          </ul>
       <%--<ul class="nav navbar-nav navbar-right">
        <li><a href="#"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>

@@ -253,7 +253,7 @@
                             </td>
                             <td class="auto-style2">Full groom</td>
                             <td class="auto-style25">
-                                <asp:TextBox ID="TextBox1" runat="server" Width="15px">1</asp:TextBox>
+                                <asp:TextBox ID="TextBox1" runat="server" Width="40px">1</asp:TextBox>
                             </td>
                             <td class="auto-style25">60.00</td>
                             <td class="auto-style26" nowrap>60.00</td>
@@ -264,7 +264,7 @@
                             </td>
                             <td class="auto-style2">Shampoo</td>
                             <td class="auto-style25">
-                                <asp:TextBox ID="TextBox2" runat="server" Width="15px">1</asp:TextBox>
+                                <asp:TextBox ID="TextBox10" runat="server" Width="40px">1</asp:TextBox>
                             </td>
                             <td class="auto-style25">60.00</td>
                             <td class="auto-style26" nowrap>60.00</td>
@@ -275,7 +275,7 @@
                             </td>
                             <td class="auto-style2">Dye</td>
                             <td class="auto-style25">
-                                <asp:TextBox ID="TextBox3" runat="server" Width="15px">1</asp:TextBox>
+                                <asp:TextBox ID="TextBox11" runat="server" Width="40px">1</asp:TextBox>
                             </td>
                             <td class="auto-style25">60.00</td>
                             <td class="auto-style26" nowrap>60.00</td>
@@ -286,7 +286,7 @@
                             </td>
                             <td class="auto-style2">Cut</td>
                             <td class="auto-style25">
-                                <asp:TextBox ID="TextBox4" runat="server" Width="15px">1</asp:TextBox>
+                                <asp:TextBox ID="TextBox12" runat="server" Width="40px">1</asp:TextBox>
                             </td>
                             <td class="auto-style25">60.00</td>
                             <td class="auto-style26" nowrap>60.00</td>
@@ -297,7 +297,7 @@
                             </td>
                             <td class="auto-style2">Nail Trim Only</td>
                             <td class="auto-style25">
-                                <asp:TextBox ID="TextBox5" runat="server" Width="15px">1</asp:TextBox>
+                                <asp:TextBox ID="TextBox13" runat="server" Width="40px">1</asp:TextBox>
                             </td>
                             <td class="auto-style25">60.00</td>
                             <td class="auto-style26" nowrap>60.00</td>
