@@ -43,11 +43,11 @@
     </div>
     <div>
         <ul class="nav navbar-nav">
-           <li><a href="booknow.aspx">Book Now</a></li>
-           <li><a href="UpcomingBook.aspx">Upcoming Bookings</a></li>
-           <li><a href="CancelledBookings.aspx">Cancelled Bookings</a></li>
+           <li><a href="BookAppointment.aspx">Book Now</a></li>
+           <li><a href="UpcomingBookings.aspx">Upcoming Bookings</a></li>
+           <li><a href="CancelledBook.aspx">Cancelled Bookings</a></li>
            <li><a href="TransHistory.aspx">Transaction History</a></li>
-           <li class="active"><a href="RegisterMyPet.aspx">Register My Pet</a></li>
+           <li><a href="RegisterAPet.aspx">Register My Pet</a></li>
            <li><a href="MemberAccount.aspx">My Account</a></li>
          </ul>
       <%--<ul class="nav navbar-nav navbar-right">
