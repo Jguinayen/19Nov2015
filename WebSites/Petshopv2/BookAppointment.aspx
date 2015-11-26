@@ -52,48 +52,51 @@
 
     <br />
 
-    <!--SAMPLE-->
     
-    <table border="3px" width="100%" cellspacing="2" cellpadding="10px" style="background-color:#ffffff;">
 
-<tr style="background-color:#efefef;"><th style="text-align:center; width: 102px;">Time</th><th>Events</th></tr>
-
-<tr style="background-color:aliceblue;"><td style="width: 102px;">09:00 a.m.</td><td>&nbsp;</td></tr>
-
-<tr><td style="width: 102px">10:00 a.m.</td><td>&nbsp;</td></tr>
-
-<tr style="background-color:aliceblue;"><td style="width: 102px">11:00 a.m.</td><td>&nbsp;</td></tr>
-
-<tr><td style="width: 102px">12:00 p.m.</td><td>&nbsp;</td></tr>
-
-<tr style="background-color:aliceblue;"><td style="width: 102px">01:00 p.m.</td><td>&nbsp;</td></tr>
-
-<tr><td style="width: 102px">02:00 p.m.</td><td>&nbsp;</td></tr>
-
-<tr style="background-color:aliceblue;"><td style="width: 102px">03:00 p.m.</td><td>&nbsp;</td></tr>
-
-<tr><td style="width: 102px">04:00 p.m.</td><td>&nbsp;</td></tr>
-
-<tr style="background-color:aliceblue;"><td style="width: 102px">05:00 p.m.</td><td>&nbsp;</td></tr>
-
-</table>
-       
-
-
-<!--end of SAMPLE--->   
     
     <br />
-    <asp:Calendar ID="Calendar1" runat="server" BackColor="#cccccc" BorderColor="white" BorderWidth="0" BorderStyle="solid" CellSpacing="2" CellPadding="2" Font-Names="Verdana" Font-Size="12pt" ForeColor="Black" Height="600px" NextPrevFormat="ShortMonth" Width="100%">
-        <DayHeaderStyle Font-Bold="True" Font-Size="10pt" ForeColor="#333333" Height="25pt" />
+    <asp:Calendar ID="Calendar1" runat="server" BackColor="#cccccc" BorderColor="white" BorderWidth="0" BorderStyle="solid" CellSpacing="2" CellPadding="4" Font-Names="Verdana" Font-Size="12pt" ForeColor="Black" Height="600px" NextPrevFormat="ShortMonth" Width="100%">
+        <DayHeaderStyle Font-Bold="True" Font-Size="10pt" ForeColor="#333333" Height="5pt" />
         <DayStyle BackColor="#ffffff" />
         <NextPrevStyle Font-Bold="True" Font-Size="12pt" ForeColor="white" />
         <OtherMonthDayStyle ForeColor="#cccccc" />
         <SelectedDayStyle BackColor="#cccccc" ForeColor="White" />
         <%--<TitleStyle BackColor="#333399" BorderStyle="Solid" Font-Bold="True" Font-Size="12pt" ForeColor="White" Height="25pt" />--%>
-        <TitleStyle BackColor="#333399" Font-Bold="True" Font-Size="12pt" ForeColor="White" Height="25pt" />
+        <TitleStyle BackColor="#333333" Font-Bold="True" Font-Size="12pt" ForeColor="White" Height="5pt" />
         <TodayDayStyle BackColor="#cccccc" ForeColor="White" Font-Bold="True" />
     </asp:Calendar>
     
+    <br /><br />
+     <!--with TIME-->
+    
+    <table border="0" width="100%" cellspacing="2" cellpadding="10px" style="background-color:#ffffff;">
+
+<tr style="background-color:#ffffff;"><th style="text-align:left; height: 39px;" colspan="2">Friday 27 November 2015</th></tr>
+
+<tr style="background-color:#efefef;"><th style="text-align:center; width: 102px; height: 35px;">Time</th><th style="height: 35px">Events</th></tr>
+
+<tr style="background-color:aliceblue;"><td style="width: 102px; height: 32px;">09:00 a.m.</td><td style="height: 32px"></td></tr>
+
+<tr><td style="width: 102px; height: 28px;">10:00 a.m.</td><td style="height: 28px"></td></tr>
+
+<tr style="background-color:aliceblue;"><td style="width: 102px; height: 33px;">11:00 a.m.</td><td style="height: 33px"></td></tr>
+
+<tr><td style="width: 102px; height: 30px;">12:00 p.m.</td><td style="height: 30px"></td></tr>
+
+<tr style="background-color:aliceblue;"><td style="width: 102px; height: 31px;">01:00 p.m.</td><td style="height: 31px"></td></tr>
+
+<tr><td style="width: 102px; height: 31px;">02:00 p.m.</td><td style="height: 31px"></td></tr>
+
+<tr style="background-color:aliceblue;"><td style="width: 102px; height: 32px;">03:00 p.m.</td><td style="height: 32px"></td></tr>
+
+<tr><td style="width: 102px; height: 34px;">04:00 p.m.</td><td style="height: 34px"></td></tr>
+
+<tr style="background-color:aliceblue;"><td style="width: 102px; height: 34px;">05:00 p.m.</td><td style="height: 34px"></td></tr>
+
+</table>
+       
+<!--end with TIME-->  
 
 </asp:Content>
 

@@ -6,11 +6,11 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
     <style>
-        #table {
+        table {
             height: 20px;
         }
 
-        #table tr td {
+        table tr td {
             height: 20px;
         }
 
@@ -48,7 +48,7 @@
            <li><a href="CancelledBookings.aspx">Cancelled Bookings</a></li>
            <li><a href="TransHistory.aspx">Transaction History</a></li>
            <li class="active"><a href="RegisterMyPet.aspx">Register My Pet</a></li>
-           <li><a href="MyAccount.aspx">My Account</a></li>
+           <li><a href="MemberAccount.aspx">My Account</a></li>
          </ul>
       <%--<ul class="nav navbar-nav navbar-right">
        <li><a href="#"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
