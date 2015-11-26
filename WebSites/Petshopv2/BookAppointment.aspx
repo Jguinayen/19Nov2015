@@ -50,18 +50,48 @@
             </tr>
         </table>
 
+    <br />
 
-    </div>
+    <!--SAMPLE-->
     
+    <table border="3px" width="100%" cellspacing="2" cellpadding="10px" style="background-color:#ffffff;">
 
-    <asp:Calendar ID="Calendar1" runat="server" BackColor="White" BorderColor="Black" BorderStyle="Solid" CellSpacing="1" Font-Names="Verdana" Font-Size="9pt" ForeColor="Black" Height="90%" NextPrevFormat="ShortMonth" Width="100%">
-        <DayHeaderStyle Font-Bold="True" Font-Size="8pt" ForeColor="#333333" Height="8pt" />
-        <DayStyle BackColor="#CCCCCC" />
-        <NextPrevStyle Font-Bold="True" Font-Size="8pt" ForeColor="White" />
-        <OtherMonthDayStyle ForeColor="#999999" />
-        <SelectedDayStyle BackColor="#333399" ForeColor="White" />
-        <TitleStyle BackColor="#333399" BorderStyle="Solid" Font-Bold="True" Font-Size="12pt" ForeColor="White" Height="12pt" />
-        <TodayDayStyle BackColor="#999999" ForeColor="White" />
+<tr style="background-color:#efefef;"><th style="text-align:center; width: 102px;">Time</th><th>Events</th></tr>
+
+<tr style="background-color:aliceblue;"><td style="width: 102px;">09:00 a.m.</td><td>&nbsp;</td></tr>
+
+<tr><td style="width: 102px">10:00 a.m.</td><td>&nbsp;</td></tr>
+
+<tr style="background-color:aliceblue;"><td style="width: 102px">11:00 a.m.</td><td>&nbsp;</td></tr>
+
+<tr><td style="width: 102px">12:00 p.m.</td><td>&nbsp;</td></tr>
+
+<tr style="background-color:aliceblue;"><td style="width: 102px">01:00 p.m.</td><td>&nbsp;</td></tr>
+
+<tr><td style="width: 102px">02:00 p.m.</td><td>&nbsp;</td></tr>
+
+<tr style="background-color:aliceblue;"><td style="width: 102px">03:00 p.m.</td><td>&nbsp;</td></tr>
+
+<tr><td style="width: 102px">04:00 p.m.</td><td>&nbsp;</td></tr>
+
+<tr style="background-color:aliceblue;"><td style="width: 102px">05:00 p.m.</td><td>&nbsp;</td></tr>
+
+</table>
+       
+
+
+<!--end of SAMPLE--->   
+    
+    <br />
+    <asp:Calendar ID="Calendar1" runat="server" BackColor="#cccccc" BorderColor="white" BorderWidth="0" BorderStyle="solid" CellSpacing="2" CellPadding="2" Font-Names="Verdana" Font-Size="12pt" ForeColor="Black" Height="600px" NextPrevFormat="ShortMonth" Width="100%">
+        <DayHeaderStyle Font-Bold="True" Font-Size="10pt" ForeColor="#333333" Height="25pt" />
+        <DayStyle BackColor="#ffffff" />
+        <NextPrevStyle Font-Bold="True" Font-Size="12pt" ForeColor="white" />
+        <OtherMonthDayStyle ForeColor="#cccccc" />
+        <SelectedDayStyle BackColor="#cccccc" ForeColor="White" />
+        <%--<TitleStyle BackColor="#333399" BorderStyle="Solid" Font-Bold="True" Font-Size="12pt" ForeColor="White" Height="25pt" />--%>
+        <TitleStyle BackColor="#333399" Font-Bold="True" Font-Size="12pt" ForeColor="White" Height="25pt" />
+        <TodayDayStyle BackColor="#cccccc" ForeColor="White" Font-Bold="True" />
     </asp:Calendar>
     
 
