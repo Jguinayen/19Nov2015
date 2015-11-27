@@ -71,31 +71,31 @@
     <br /><br />
      <!--with TIME-->
     
-    <table border="0" width="100%" cellspacing="2" cellpadding="10px" style="background-color:#ffffff;">
+    <table id="daytable" border="0" width="100%" cellspacing="2" cellpadding="10px" style="background-color:#ffffff;">
 
-<tr style="background-color:#ffffff;"><th style="text-align:left; height: 39px;" colspan="2">Friday 27 November 2015</th></tr>
+<tr style="background-color:#ffffff;"><td style="height: 39px;">Friday 27 November 2015</td></tr>
 
-<tr style="background-color:#efefef;"><th style="text-align:center; width: 102px; height: 35px;">Time</th><th style="height: 35px">Events</th></tr>
+<tr><td>Time</td></tr>
 
-<tr style="background-color:aliceblue;"><td style="width: 102px; height: 32px;">09:00 a.m.</td><td style="height: 32px"></td></tr>
+<tr><td><a href="#">09:00 a.m.</a></td></tr>
 
-<tr><td style="width: 102px; height: 28px;">10:00 a.m.</td><td style="height: 28px"></td></tr>
+<tr><td><a href="#">10:00 a.m.</a></td></tr> 
+        
+<tr><td><a href="#">11:00 a.m.</a></td></tr>  
 
-<tr style="background-color:aliceblue;"><td style="width: 102px; height: 33px;">11:00 a.m.</td><td style="height: 33px"></td></tr>
+<tr><td><a href="#">12:00 p.m.</a></td></tr>
 
-<tr><td style="width: 102px; height: 30px;">12:00 p.m.</td><td style="height: 30px"></td></tr>
+<tr><td><a href="#">01:00 p.m.</a></td></tr> 
+        
+<tr><td><a href="#">02:00 p.m.</a></td></tr>
+        
+<tr><td><a href="#">03:00 p.m.</a></td></tr>
 
-<tr style="background-color:aliceblue;"><td style="width: 102px; height: 31px;">01:00 p.m.</td><td style="height: 31px"></td></tr>
-
-<tr><td style="width: 102px; height: 31px;">02:00 p.m.</td><td style="height: 31px"></td></tr>
-
-<tr style="background-color:aliceblue;"><td style="width: 102px; height: 32px;">03:00 p.m.</td><td style="height: 32px"></td></tr>
-
-<tr><td style="width: 102px; height: 34px;">04:00 p.m.</td><td style="height: 34px"></td></tr>
-
-<tr style="background-color:aliceblue;"><td style="width: 102px; height: 34px;">05:00 p.m.</td><td style="height: 34px"></td></tr>
-
-</table>
+<tr><td><a href="#">04:00 p.m.</a></td></tr> 
+        
+<tr><td><a href="#">05:00 p.m.</a></td></tr>             
+    
+    </table>
        
 <!--end with TIME-->  
 
