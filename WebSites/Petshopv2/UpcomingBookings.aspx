@@ -4,7 +4,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="rightcolumn" Runat="Server">
 
-    <table style="border: 1px; width: 100%; background-color: #e8dede; padding: 4px 4px 4px 4px;">
+    <table id="UpcomingTable" style="border: 1px; width: 100%; background-color: #e8dede; padding: 4px 4px 4px 4px;">
             <tr style="background-color: #e8dede;">
                 <td class="auto-style32"></td>
                 <td class="auto-style33" colspan="4"><h3>Upcoming Bookings</h3></td>
