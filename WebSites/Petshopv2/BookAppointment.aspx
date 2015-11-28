@@ -57,18 +57,7 @@
 
     
     <br />
-    <asp:Calendar ID="Calendar1" runat="server" BackColor="#cccccc" BorderColor="white" BorderWidth="0" BorderStyle="solid" CellSpacing="2" CellPadding="4" Font-Names="Verdana" Font-Size="12pt" ForeColor="Black" Height="600px" NextPrevFormat="ShortMonth" Width="100%">
-        <DayHeaderStyle Font-Bold="True" Font-Size="10pt" ForeColor="#333333" Height="5pt" />
-        <DayStyle BackColor="#ffffff" />
-        <NextPrevStyle Font-Bold="True" Font-Size="12pt" ForeColor="white" />
-        <OtherMonthDayStyle ForeColor="#cccccc" />
-        <SelectedDayStyle BackColor="#cccccc" ForeColor="White" />
-        <%--<TitleStyle BackColor="#333399" BorderStyle="Solid" Font-Bold="True" Font-Size="12pt" ForeColor="White" Height="25pt" />--%>
-        <TitleStyle BackColor="#333333" Font-Bold="True" Font-Size="12pt" ForeColor="White" Height="5pt" />
-        <TodayDayStyle BackColor="#cccccc" ForeColor="White" Font-Bold="True" />
-    </asp:Calendar>
-    
-    <br /><br />
+        `<br /><br />
      <!--with TIME-->
     
     <table id="daytable" border="0" width="100%" cellspacing="2" cellpadding="10px" style="background-color:#ffffff;">
