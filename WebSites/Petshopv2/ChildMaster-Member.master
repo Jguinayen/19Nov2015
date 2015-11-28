@@ -48,6 +48,10 @@
                 height:30px;
             }
 
+             #UpcomingTable th {
+                height:35px;
+            }
+
 
     </style>
 

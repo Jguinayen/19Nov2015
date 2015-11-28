@@ -6,7 +6,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Data.SqlClient;
 
-public partial class RegisterAPet : System.Web.UI.Page
+public partial class RegisterMyPet : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {

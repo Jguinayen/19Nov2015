@@ -239,6 +239,24 @@
                 <td class="auto-style11" width="20px">&nbsp;</td>
                 <td class="auto-style7" style="vertical-align:top;">
 
+        <!------ Invoice Table ------>
+        
+                    <table style="width: 100%;">
+                        <tr>
+                            <td>Customer Name</td>
+                            <td>
+                                <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox></td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        
+                    </table>
+
+
+        <!------ Invoice Table ------>
+
                     <table id="invoice" style="width: 100%; border: solid 2px white">
                         <tr>
                             <th style="width:20px; text-align:center;">Delete</td>
