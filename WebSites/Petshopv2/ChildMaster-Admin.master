@@ -29,7 +29,6 @@
     <div>
       <ul class="nav navbar-nav">
         <li class="active"><a href="Admin.aspx">Calendar</a></li>
-        <li><a href="DateSettings.aspx">Date Settings</a></li>
         <li><a href="UserAccts.aspx">User Accounts</a></li>
         <li><a href="Reports.aspx">Reports</a></li>
         <li><a href="Account.aspx">My Account</a></li>
