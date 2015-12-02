@@ -93,7 +93,7 @@
   </div>
 </nav>
        <!-- /TOP MEMBER NAVBAR-->
-
+        </div>
     <!------Child ContentPlaceHolder------>
     <div id="2col">
   <asp:ContentPlaceHolder ID="leftcolumn" runat="server">
