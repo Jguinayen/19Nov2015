@@ -144,8 +144,8 @@
                             <th style="width:20px; text-align:center;">Delete</td>
                             <th style="width:60%;">Job Type
                             <th style="width:10px;">Qty
-                            <th style="width:10px;">Price</td>
-                            <th style="width:10px;">Total</td>
+                            <th style="width:10px;">Price</th>
+                            <th style="width:10px;">Total</th>
                         </tr>
                         <tr>
                             <td class="auto-style4">
@@ -202,19 +202,19 @@
                             <td class="auto-style25">60.00</td>
                             <td class="auto-style26" nowrap>60.00</td>
                         </tr>
-                        <tr height="50px" class="alt">
+                        <tr style="height:50px;">
                             <td class="auto-style21;" colspan="2">
                                 <asp:Button ID="Button1" runat="server" Text="Update Invoice" />
                                 &nbsp;</td>
                             <td class="auto-style20">&nbsp;</td>
                             <td class="auto-style20">&nbsp;</td>
-                            <td class="auto-style19" nowrap>&nbsp;</td>
+                            <td class="auto-style19">&nbsp;</td>
                         </tr>
                         
                     </table>
                     <br />
-                    
-                    <table id="bigbutton" style="width: 100%; border: solid 2px white; background-color: #e1a4a4 text-align: center;">
+                  
+                    <table id="bigbutton" style="width: 100%; border: solid 2px white; background-color: #e1a4a4; text-align: center;">
                         <tr>
                             <td style="background-color: aliceblue" class="auto-style6" colspan="4">
                                 <h5>Other Grooming Services</h5>
@@ -275,7 +275,7 @@
                             <td class="auto-style2" style="text-align:center;">
                                 &nbsp;</td>
                         </tr>
-                        </tr>
+                        
                         <tr>
                             <td class="auto-style22" style="align-content:center;">
                                 &nbsp;</td>
@@ -289,13 +289,13 @@
                                                                         
                     </table>
                     <br />
-                </td>
+                
                 <td class="auto-style15" valign="top" align="left">
 
                     &nbsp;</td>
             </tr>
               
             </table>
-
+   
 </asp:Content>
 
